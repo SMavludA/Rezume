@@ -1,86 +1,98 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="keywords" content="Султанова Мавлюда, rezyume" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="description" content="">
-
-    <title>Султанова Мавлуда</title>
-    <link rel="stylesheet" href="malu.css">
-
-</head>
+    <meta name="keywords" content="rezyume, cv, mavlyuda"> 
+    <meta name="description" content="Это сайт - резюме Султанова Мавлюда">
+   <link rel="stylesheet" href="03_style.css">
+   <title>Султанова Мавлуда</title>
+ </head>
 <body>
 
-    <img src="https://img3.fonwall.ru/o/vl/animal-wildlife-wild-zoo-lfhl.jpeg" width="200">
-       <h1>Я Султанова Мавлюда!</h1>
-    <p>Я родилась 1980 г. Я закончила ДПИ. <br>Я лаборантка по пищевому производству.
-        <br>И сейчас я работаю в этом сфере.</p>
-    <p>Мне интересно программировать <br><strong><em>начало этот курс как хобби.</em></strong>
-        <br>Надеюсь да учиться до конца и изучать дальше,
-        <br> если освою этот курс.<br>Очень надеюсь на это!</p>
-       <h4>Мой Хобби</h4>
-       <ol><li>Кулинария </li>
-        <li>Путешествия </li>
-        <li>Скора программирования</li>
-       </ol>
-        <h4>Список социальных сетей:</h4>
+<div class="container">
 
-        <a href=""target="_blank">Telegram</a>|
-        <a href="" target="_blank">Facebook</a>|
-   
-   <h3>Резюме</h3>
-   <table border="5">
-       <thead>
-           <tr>
-               <th>Название</th>
-               <th>Должность</th>
-               <th>Год</th>
-           </tr>
-       </thead>
-       <tbody>
-           <tr>
-               <td>JizzaxPlastmassaZavod AO</td>
-               <td>Kachestva Kontrol</td>
-               <td>2001-2005</td>
-           </tr>
-           <tr>
-               <td>AO DAZ</td>
-               <td>Setral.Laboratoriya</td>
-               <td>y2005-2018</td>
-           </tr>
-           <tr>
-               <td>JYUYK</td>
-               <td>Agroximik</td>
-               <td>2018-2020</td>
-           </tr>
-           <tr>
-            <td>JPZ</td>
-            <td>Setral.Laboratoriya</td>
-            <td>2020-сейчас</td>
-        </tr>
-           
-       </tbody>
-   </table>
+<div class="info">
+<img src="https://img3.fonwall.ru/o/vl/animal-wildlife-wild-zoo-lfhl.jpeg" class="avatar">
+<div class="info-text">
+<h1>Я Султанова Мавлюда!</h1>
+<p>Я родилась 1980 г. Я закончила ДПИ. 
+<br>Я лаборантка по пищевому производству.
+<br>И сейчас я работаю в этом сфере.</p>
+<p>Мне интересно программировать <br><strong>
+<em>начало этот курс как хобби.</em></strong>
+<br>Надеюсь да учиться до конца и изучать дальше,
+<br> если освою этот курс.<br>Очень надеюсь на это!</p>
+<div class="bn">
+<h4>Список социальных сетей:</h4>
+<a href="#"target="_blank">Telegram</a>|
+<a href="#" target="_blank">Facebook</a>|
+</div>
+</div>
+</div>
+
+<div class="card"> 
+<h3>Мое Хобби</h3>
+<ol class="list">
+<li>Кулинария </li>
+<li>Путешествия </li>
+<li>Скора программирования</li>
+</ol>
+</div> 
+
+<div class="card">
+<h3>Опыт работы</h3>
+<table class="table">
+<tbody>
+<tr>
+<td>"JPZ" AO</td>
+<td>KontrKachest</td>
+<td>2001-2005</td>
+</tr>
+<tr>
+<td>"DAZ" AO</td>
+<td>SetralLaboratoriya</td>
+<td>2005-2018</td>
+</tr>
+<tr>
+<td>JYUYK</td>  
+<td>Agroximik</td>
+<td>2018-2020</td>
+</tr>
+<tr>
+<td>"JPZ" SP OOO </td>
+<td>SetralLaboratoriya</td>
+<td>2020-сейчас</td> 
+</tr>
+</tbody>
+</table> 
+</div>  
+
+<form action="/" class="form">
 <h3>Связаться сомной</h3>
-<div>
-    <label for="name">Ваша имя</label>
-    <input type="text"id="name"placeholder="Введите ваща имя">
+<div class="form-row">
+<div class="form-group">
+  <label for="name">Ваша имя:</label>
+   <input type="text" id="name" placeholder="Введите имя">
 </div>
-<div>
-    <label for="email">Вашa email</label>
-    <input type="email" id="email"placeholder="Введите ваша email">
+               
+<div class="form-group" >
+<label for="email">Вашa email:</label>
+<input type="email" id="email"placeholder="Введите email">
 </div>
-<div>
-    <label for="massege">Ваша сообщение</label>
-<br>
-    <textarea id="message"cols="25"rows="5" placeholder="Введите ваша сообщение"></textarea>
-    </textarea>  
-    <div>
-        <input type="submit" value="Отправить!">
-    </div>
+
+<div class="form-group">
+<label for="massege">Ваша сообщение:</label> 
+<textarea id="message" cols="25" rows="5" placeholder="Введите ваша сообщение"></textarea>
+</div>
+</div>
+</form> 
+
+<div сlass="btn">
+<input type="submit" value="Отправить!">
+</div>
+
 </div>
 </body>
    </html>
